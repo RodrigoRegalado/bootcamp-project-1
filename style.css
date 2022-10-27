@@ -1,0 +1,12 @@
+body {
+    background-color : lightcoral
+}
+* {
+    border : 5px black;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    margin: 0;
+}
