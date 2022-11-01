@@ -2,11 +2,20 @@ body {
     background-color : lightcoral
 }
 * {
-    border : 5px black;
+    border: 1px black solid;
+    margin: 1px;
 }
-h1 {
+header {
     text-align: center;
+    width: 90%;
 }
 .container {
-    margin: 0;
+    min-height: 800px;
+    width: 90%;
+}
+.homescreen {
+    display: flex;
+    padding: 5px;
+    flex-grow: 1;
+    justify-content: space-between;
 }
