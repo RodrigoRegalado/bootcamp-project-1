@@ -10,12 +10,22 @@ header {
     width: 90%;
 }
 .container {
-    min-height: 800px;
+    min-height: 900px;
     width: 90%;
+    display: flex;
 }
 .homescreen {
     display: flex;
-    padding: 5px;
     flex-grow: 1;
     justify-content: space-between;
+    max-height: 200px;
+}
+.homescreen > div {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: space-between;
+}
+.setnumber1 > p {
+    display:flex;
+    flex-grow:1;
 }
